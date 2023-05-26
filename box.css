@@ -1,0 +1,111 @@
+div{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    animation-direction: reverse;
+    animation-name: anime;
+    animation-delay: -2;
+    animation-iteration-count: 1;
+}
+#a{
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 400px;
+    animation-duration: 3s;
+    animation-delay: none;
+}
+#b1{
+    background-color: blue;
+    margin-left: 350px;
+    animation-duration: 4s;
+
+}   
+#b2{
+    background-color: green;
+    margin-top: -50px;
+    margin-left: 400px;
+    animation-duration: 4.2s;
+}
+#b3{
+    background-color: yellow;
+    margin-left: 450px;
+    margin-top: -50px;
+    animation-duration: 4.4s;
+}
+#c1{
+    background-color: orange;
+    margin-left: 300px;
+    animation-duration: 5.2s;
+}
+#c2{
+    background-color: darkorchid;
+    margin-left: 350px;
+    margin-top: -50px;
+    animation-duration: 5.4s;
+}
+#c3{
+    background-color: cadetblue;
+    margin-top: -50px;
+    margin-left: 400px;
+    animation-duration: 5.6s;
+}
+#c4{
+    background-color: deeppink;
+    margin-top: -50px;
+    margin-left: 450px;
+    animation-duration: 5.8s;
+}
+#c5 {
+    background-color: lime;
+    margin-top: -50px;
+    margin-left: 500px;
+    animation-duration: 6s;
+
+}
+#d1 {
+    background-color: crimson;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    animation-duration: 6.5s;
+}
+#d2{
+    background-color: aqua;
+    margin-left: 300px;
+    margin-top: -100px;
+    animation-duration: 6.75s;
+}
+#d3 {
+    background-color: greenyellow;
+    margin-top: -50px;
+    margin-left: 350px;
+    animation-duration: 7s;
+}
+#d4 {
+    background-color: gold;
+    margin-top: -50px;
+    margin-left: 400px;
+    animation-duration: 7.25s;
+}
+#d5 {
+    background-color: sienna;
+    margin-top: -50px;
+    margin-left: 450px;
+    animation-duration: 7.5s;
+}
+#d6{
+    background-color: midnightblue;
+    margin-top: -50px;
+    margin-left: 500px;
+    animation-duration: 7.75s;
+}
+#d7 {
+    background-color: fuchsia;
+    margin-top: -50px;
+    margin-left: 550px;
+    animation-duration: 8s;
+}
+@keyframes anime{
+    0% {left: 0px; top: 0px;}
+   100% { top: 1000px;}
+}
